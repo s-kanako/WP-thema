@@ -1,0 +1,169 @@
+
+    .entry-p {
+        text-align: center;
+    }
+    .wpcf7-form  {
+        margin: 0 auto;
+        max-width: 100%;
+        text-align: center;
+        margin-top: 62px;
+        width: 400px;
+    }
+    .wpcf7-validates-as-required {
+        width: 100px;
+    }
+    .must{
+        color: #fff;
+        margin-right: 10px;
+        padding: 6px 10px;
+        background-color: #FF7166;
+        font-size: 14px;
+        margin-left: 10px;
+    }
+    label {
+        text-align: left;
+    }
+    .text {
+        font-weight: bold;
+        text-align: left;
+        margin-bottom: 8px;
+
+    }
+    .wpcf7-form-control  {z
+        border: #909090 1px solid;
+        margin-bottom: 31px;
+        width: 400px;
+        height: 30px;
+    }
+    .wpcf7-radio {
+        flex-direction: column;
+        display: flex;
+        text-align: left;
+        border: none;
+        width: 400px;
+        margin: 0 auto;
+        margin-bottom: 31px;
+    }
+    .wpcf7-textarea {
+        width: 400px;
+        height: 100px;
+    }
+    .wpcf7-submit {
+        text-align: center;
+        border-radius: 24px;
+        background: linear-gradient(to left, #FF7166, #FF9933);
+        color: #fff;
+        height: 48px;
+        width: 155px;
+        border: none;
+        margin-bottom: 120px;
+        box-shadow: 0 11px 20px rgba(0,0,0,0.16); 
+    }
+    .textarea {
+        margin-top: 100px;
+    }
+        
+        
+
+    @media screen and (max-width: 1080px) {
+    .nav-top {
+        padding: 0 15px; }
+        .nav-top h2 {
+        padding: 0; }
+
+    .bread-list {
+        padding: 0 15px; } 
+    .form {
+    margin: 62px auto 120px auto;
+    display: inline-block;
+    text-align: left; }
+    .form p {
+        font-weight: bold;
+        margin-bottom: 10px; }
+
+    
+
+    textarea {
+    border: 1px solid #F5F5F5; }
+
+    .e-name input, .email input {
+    width: 400px; }
+
+    .title {
+    display: flex; }
+
+    .must {
+    width: 47px;
+    height: 19px;
+    margin-left: 8px;
+    font-weight: bold; }
+    .must p {
+        background-color: #FF7166;
+        color: #fff;
+        font-size: 1.4rem;
+        text-align: center; }
+
+    .item {
+    margin-bottom: 31px; }
+
+    .occupation-detail {
+    flex-direction: column;
+    display: flex; }
+
+    .occupation-type {
+    display: flex;
+    align-items: center;
+    margin-bottom: 14px; }
+
+    textarea {
+    width: 400px;
+    height: 100px; }
+
+    }
+
+    
+    @media screen and (max-width: 767px) {
+        .nav-top {
+            height: 70px;
+        }
+        .nav-top h2 {
+            line-height: 70px;
+        }
+    }
+
+    @media screen and (max-width: 425px) {
+    form {
+        margin: 0 auto;
+        padding: 0 15px;
+    }
+    form p {
+        text-align: left; }
+
+    .wpcf7-form-control {
+        width: 380px;
+    }
+
+    .name input, .email input {
+        width: 386px; }
+
+    textarea {
+        width: 386px; } 
+    }
+
+
+    @media screen and (max-width: 375px) {
+    
+    form {
+        padding: 0;
+    }
+    .wpcf7-form-control {
+        width: 320px;
+    }
+
+    .name input, .email input {
+        width: 285px; }
+
+    textarea {
+        width: 285px; } }
+    
+    /*# sourceMappingURL=styles.css.map */

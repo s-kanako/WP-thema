@@ -1,0 +1,197 @@
+
+    .all-post-inner {
+        width: 706px;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    
+    .all-post {
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-top: 50px;
+        width: 706px;
+        max-width: 100%; }
+    
+    .news-card {
+        max-width: 100%;
+        width: 330px;
+        height: 303px;
+        background-color: #fff;
+        position: relative;
+        margin-bottom: 50px;
+        box-shadow: 0 11px 20px rgba(0, 0, 0, 0.16); }
+        .news-card img {
+        margin: 15px;
+        width: 300px;
+        height: 200px; }
+        .news-card a {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%; }
+    
+    article {
+        margin-bottom: 50px;
+    }
+    .card-top {
+        position: relative; }
+        .card-category {
+        position: absolute;
+        top: 15px;
+        right: 15px;
+        width: 82px;
+        height: 20px;
+        background-color: #FF9933;
+        color: #fff;
+        font-size: 12px;
+        text-align: center;
+        font-weight: bold; }
+    
+    .news-detail {
+        margin-left: 15px; }
+        .news-detail .news-time {
+        color: #333333;
+        font-size: 14px; }
+        .news-detail .news-txt {
+        color: #090803;
+        font-weight: bold;
+        font-size: 18px; }
+    
+    .news3 {
+        height: 335px; }
+    
+    .screen-reader-text {
+        display: none;
+    }
+
+
+    @media screen and (max-width: 1080px) {
+        .news {
+        padding: 0 41px; }
+        .news-heading img {
+            margin-top: 50px;
+        } }
+    @media screen and (max-width: 767px) {
+        .all-post {
+            width: 330px;
+        }
+        .news {
+        padding: 0 15px; }
+    
+        .news-inner {
+        flex-direction: column;
+        align-items: center;
+        justify-content: normal; }
+    
+        .news-heading img {
+        width: 19%;
+        margin-top: 50px; }
+    
+        .news-card {
+        margin-bottom: 32px;
+        width: 299px; } }
+        @media screen and (max-width: 767px) {
+        html {
+            font-size: 50%; } }
+        .news {
+        padding: 0 100px; } 
+
+        .news-inner {
+        margin: 0 auto;
+        width: 1080px;
+        max-width: 100%; }
+
+        .news-flex {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 191px; }
+
+        .news-card {
+        max-width: 100%;
+        width: 330px;
+        height: 303px;
+        background-color: #fff;
+        position: relative;
+        margin-bottom: 50px;
+        box-shadow: 0 11px 20px rgba(0, 0, 0, 0.16); }
+        .news-card img {
+            margin: 15px;
+            width: 300px;
+            height: 200px; }
+        .news-card a {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%; }
+
+        .card-top {
+        position: relative; }
+        .card-top p {
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            width: 82px;
+            height: 20px;
+            background-color: #FF9933;
+            color: #fff;
+            font-size: 12px;
+            text-align: center;
+            font-weight: bold; }
+
+        .news-detail {
+        margin-left: 15px; }
+        .news-detail .news-time {
+            color: #333333;
+            font-size: 14px; }
+        .news-detail .news-txt {
+            color: #090803;
+            font-weight: bold;
+            font-size: 18px; }
+
+        .news3 {
+        height: 335px; }
+
+        
+
+        @media screen and (max-width: 1080px) {
+        .news {
+            padding: 0; }
+
+        .news-flex {
+            padding: 0  50px; } }
+        @media screen and (max-width: 767px) {
+        .news-flex {
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 0 42px; }
+
+        .button {
+            padding: 0 30px; } }
+        @media screen and (max-width: 413px) {
+        .news-flex {
+            padding: 0 15px; } }
+        @media screen and (max-width: 375px) {
+        .news-flex {
+            padding: 0; }
+
+        .news-card img {
+            margin: 11px; } 
+        
+        .card-category {
+            top: 10px;
+            right: 19px;
+        }}
+        @media screen and (max-width: 320px) {
+            .card-category {
+                right: 10px;
+            }
+        }
+
+
+
+        /*# sourceMappingURL=styles.css.map */

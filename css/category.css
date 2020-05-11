@@ -1,0 +1,19 @@
+.category-page {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 700px;
+    flex-wrap: wrap;
+    max-width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+    .category-page {
+        flex-direction: column;
+        margin: 0 auto;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: nowrap;
+    }
+    
+}

@@ -1,0 +1,246 @@
+.nav {
+    display: block;
+}
+.nav-top {
+    max-width: 100%;
+    height: 100px;
+    margin-bottom: 13px;
+    background:linear-gradient(to left,#FF7166,#FF9933 );
+}
+
+.nav-top h2,.nav-top h1 {
+    color: #fff;
+    width: 1080px;
+    margin: 0 auto;
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 100px;
+}
+.bread-list {
+    display: flex;
+    color: #AAAAAA;
+    width: 1080px;
+    margin: 0 auto 100px auto;
+}
+
+a {
+    color: #AAAAAA;
+    font-size: 1.4rem;
+}  
+
+.about {
+    margin: 0 auto;
+    width: 1080px;
+    max-width: 100%;
+    font-size: 16px
+}
+.about-content {
+    display: flex;
+    position: relative;
+}
+.about-left {
+    width: 45%;
+    z-index: 2;
+    box-shadow: 0 11px 20px rgba(0,0,0,0.16); 
+}
+.about-left img {
+    width: 100%;
+    display: block;
+}
+
+.about-right {
+    max-width: 100%;
+    width: 770px;
+    height: 318px;
+    background-color: #f5f5f5;
+    padding: 36px 36px 36px 0;
+    z-index: 1;
+    position: absolute;
+    top: 50px;
+    left: 315px;
+}
+.about-right-content {
+    width: 516px;
+    max-width: 100%;
+    margin: 0 0 0 auto;
+}
+
+.about-right-content h2 {
+    font-size: 2.2rem;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+
+.ceo {
+    display: flex;
+    font-weight: bold;
+    align-items: center;
+    width: 205px;
+    margin: 0 0 0 auto; 
+}
+.ceo-type {
+    margin-right: 20px;
+}
+.ceo-name {
+    font-size: 26px;
+}
+.summary {
+    margin-bottom: 120px;
+    font-size: 16px;
+}
+.summary-heading {
+    width: 1080px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.summary-heading h2 {
+    font-size: 3.2rem;
+    text-align: center;
+    font-weight: bold;
+    padding: 150px 0 50px 0;
+}
+.summary-box {
+    width: 800px;
+    margin: 0 auto 120px auto;
+    border: 1px solid #D8D8D8;
+    max-width: 100%;
+}
+
+.summary-item {
+    display: flex;
+    padding: 0 55px;
+    height: 50px;
+    line-height: 100%;
+    align-items: center;
+}
+.summary-name {
+    margin-right: 80px;
+    font-weight: bold;
+    width: 64px;
+}
+.service {
+    height: 200px;
+    line-height: 190%;
+    align-items: start;
+    padding-top: 10px;
+}
+.address-detail {
+    display: flex;
+}
+.address {
+    height: 360px;
+    display: block;
+    padding-top: 10px;
+}
+iframe {
+    max-width: 100%;
+    width: 500px;
+    height: 266px;
+    margin-top: 17px ;
+}
+
+
+@media screen and (max-width: 1080px) {
+    .nav-top {
+        padding: 0 15px;
+    }
+    .nav-top h2 {
+        padding: 0;
+    }
+    .bread-list {
+        padding: 0 15px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .about-right {
+        left: 255px;
+    }
+
+    .about-right-content {
+        width: 370px;
+        margin: 0 0 0 300px; 
+    }
+}
+@media screen and (max-width: 900px) {
+    .about-right-content {
+        width: 300px;
+        margin: 0 0 0 160px; 
+    }
+}
+
+
+
+@media screen and (max-width:767px) {
+    .nav-top h1 {
+        line-height: 70px;
+    }
+    
+    .about-content {
+        padding: 0 15px;
+        display: block;
+        flex-direction: column;
+        
+    }
+    .about-left {
+        width: 94%;
+    }
+    .about-right {
+        position: static;
+        padding: 36px 0 36px 12px;
+    }
+    .about-right-content {
+        margin: 0 auto;
+        width: 400px;
+    }
+    .ceo {
+        margin: 50px 0 0 auto;
+    }
+    .summary {
+        padding: 0 15px;
+        
+    }
+    .heading h2 {
+        padding-top: 75px;
+    }
+    .summary-item {
+        padding: 0 10px;
+    }
+    .summary-name {
+        margin-right: 16px;
+    }
+    .service {
+        height: 280px;
+    }
+    .service-content {
+        line-height: 190%;
+    }
+    
+}
+@media screen and (max-width: 425px) {
+    .about-right {
+        height: 414px;
+    }
+    .summary-name {
+        width: 73px;
+    }
+    .address {
+        height: 249px;
+    }
+    iframe {
+        width: 275px;
+        height: 146px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .summary-item {
+        padding: 0;;
+    }
+    .txt-p {
+        width: 51%;
+    }
+    .service-content {
+        line-height: 148%;
+    }
+}
